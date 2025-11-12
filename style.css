@@ -48,10 +48,6 @@ body{
 
 }
 
-#responsive-nav{
-    display: none;
-}
-
 .img-section{
     grid-column: 1/4;
     padding: 100px 0px 0px 40px;
@@ -200,22 +196,6 @@ body{
 }
 
 @media screen and (max-width: 800px){
-    
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        background-color: #dccaad;
-        position: absolute;
-        top: 20px;
-        right: 75px;
-        border-radius: 5px;
-        padding: 10px;
-    }
-
-    .nav-links.show {
-        display: flex;
-        font-size: 20px;
-    }
 
     .navbar{
         ul{
@@ -260,14 +240,6 @@ body{
 }
 
 @media screen and (max-width: 620px){
-    
-    .nav-links{
-        top: 25px
-    }
-
-    .nav-links.show {
-        font-size: 15px;
-    }
 
     .navbar{
         #logo{
@@ -307,14 +279,6 @@ body{
 }
 
 @media screen and (max-width: 450px){
-    
-    .nav-links{
-        top: 25px;
-    }
-
-    .nav-links.show {
-        font-size: 14px;
-    }
 
     .img-section{
     img{
@@ -334,12 +298,6 @@ body{
 }
 
 @media screen and (max-width: 410px){
-   
-    .nav-links{
-        right: 65px;
-        padding: 5px;
-    }
-
 
     .text-section{
         ul{
@@ -349,10 +307,6 @@ body{
 }
 
 @media screen and (max-width: 380px){
-    
-    .nav-links{
-        right: 60px;
-    }
 
     .navbar{
         #menu{
